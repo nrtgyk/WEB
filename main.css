@@ -1,0 +1,74 @@
+
+body{
+
+    background-color: rgb(176, 205, 206);
+
+}
+.table2{
+    text-align: center; 
+    width: 100%;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 110%;
+}
+.table1{
+    width: 100%;
+}
+#td3{
+    text-align: left;
+}
+
+#td4{
+    width: 100%;
+    text-align: center;  
+}
+
+#td5{
+    text-align: right;
+}
+input{          
+    padding:10px 16%;
+    text-align: left;
+
+}
+.sub_menu{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    border: 3px solid black;
+    margin-top: 30px;
+    margin-left: -90px;
+    text-align: left;
+    box-shadow: 1px 1px 1px grey;
+
+}
+.sub_menu::before{
+    content: "";
+    width: -90px;
+    height: 0px;
+    border-left: 0px solid transparent;
+    border-right: 0px solid black;
+    border-bottom: 30px solid black;
+    position: absolute;
+    margin: 0px 0px 0px 60px;
+
+}
+.sub_menu>td{
+    padding: 0px;
+    color: black;
+    
+    font-size: 80px;
+
+}
+.table1 td:hover, .sub_menu li:hover{
+    background: rgb(176, 205, 206);
+}
+.table1 td:hover .sub_menu{
+    display: block ;
+
+}
+#user{
+    text-align: center;
+}

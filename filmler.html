@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Filmler</title>
+
+
+
+    <style>
+
+        .filmler,div td{
+            border: 2px solid rgba(55, 96, 97, 0.319);
+            border-collapse: collapse;
+            width:fit-content ;
+            
+        }
+        div td{
+            text-align: center;
+            vertical-align: middle;
+            padding:20px;
+        }
+
+        div td ul{
+            text-align: left;
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <table class="table1">
+        <tr>
+            <td id="td1">
+                <a href="index.html">
+                    <img alt="film çerezi ikon" height="64px" width="64px" src="images/64px_filmcerezi_icon.png" />
+                </a>
+            </td>
+            <td id="td2">
+                <a href="index.html">
+                    <h1>Film Çerezi</h1>
+                </a>
+            </td>
+            <td id="td3">
+             
+                <img alt="menü ikonu" height="32px" width="32px" src="images/menu-button.png" />
+                <ul class="sub_menu">
+                    <li><a href="diziler.html"> DİZİLER</a></li>
+                    <li><a href="filmler.html">FİLMLER </a></li>
+                    <li><a href="oyuncular.html">OYUNCULAR </a></li>
+                </ul>
+
+            </td>
+
+            <td id="td4">
+                <input id="myInput" placeholder="Ne arıyorsunuz?">
+                <button id="myBtn" onclick="javascript:alert('Aradığınız Bulunamadı!')">Ara</button>
+            </td>
+            
+            <td id="td5"> <a href="girisSayfasi.html"> <img alt="üyelik girişi" height="64px" width="64px" src="images/user.png" /></a>
+                <ul class="sub_menu">
+                    <li><a href="hesapBilgileri.html"> Hesap Bilgileri</a></li>
+                    <li><a href="girisSayfasi.html">Giriş Yap </a></li>
+                    <li><a href="kayitSayfasi.html"> Kayıt Ol</a></li>
+                    <li><a href="sifreDegistirme.html">Şifre Değiştirme </a></li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table><br>
+    <p>
+        <h1>FİLMLER</h1>
+
+        Sitemize eklenen en son filmler: <br> <br>
+
+    </p>
+
+    <div>
+        <table class="filmler"> 
+            <div> 
+    
+                <tr>
+                    <td>
+                        <img alt="Harry Potter ve Felsefe Taşı" width="250px" src="images\hp1.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Harry Potter ve Felsefe Taşı <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 32dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Fantastik <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b> Harry Potter 11. yaş gününde güçlü bir sihirbaz olduğunu ve Hogwarts Cadılık ve Büyücülük Okulu'nun onu beklediğini öğrenir.<br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2001 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.6/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Daniel Radcliffe, Rupert Grint,  Emma Watson<br>
+                                </li>
+                            </ul>
+                        </p>   
+                    </td>
+                    
+    
+        
+                    <td>
+                        <img alt="Harry Potter ve Sırlar Odası" width="250px" src="images\hp2.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Harry Potter ve Sırlar Odası <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 41dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Fantastik <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Harry, Dobby'nin Hogwarts'a dönmemesi gerektiği konusunda yaptığı uyarılara kulak asmaz ve Ron ve Hermione ile birlikte bir dizi gizemli saldırıyı araştırır. <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2002 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.4/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Daniel Radcliffe, Rupert Grint, Emma Watson <br>
+                                </li>
+    
+                            </ul>
+                        </p>          
+                    </td>
+        
+    
+                    <td>
+                        <img alt="Harry Potter ve Azkaban Tutsağı" width="250px" src="images\hp3.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Harry Potter ve Azkaban Tutsağı <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 21dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Fantastik <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Hogwarts'daki üçüncü yılında Harry, Voldemort sempatizanı Sirius Black'in onu yakalamak üzere hapisaneden kaçmasıyla büyük bir tehlikeye karşı karşıya gelir <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2004 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.9/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Daniel Radcliffe, Rupert Grint, Emma Watson <br>
+                                </li>
+                            </ul>      
+                        </p>          
+                    </td>
+                    
+    
+    
+                    <td>
+                        <img alt="Harry Potter ve Ateş Kadehi" width="250px" src="images\hp4.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Harry Potter ve Ateş Kadehi <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 37dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Fantastik <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Harry anlaşılmaz bir şekilde, prestijli Üçbüyücü Turnuvası’na katılmak üzere seçilmesinden mutlu olmalıdır. Ama bu heyecan verici uluslararası yarışma, Harry’yi Hogwarts’ın yanı sıra, Avrupa’daki iki rakip büyücülük okulunun da daha büyük ve deneyimli öğrencileriyle karşı karşıya getirecektir. <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2005 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.7/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Daniel Radcliffe, Rupert Grint, Emma Watson <br>
+                                </li>
+                            </ul>      
+                        </p>                   
+                    </td>    
+                </tr>
+            </div>
+    
+    
+            <div>
+                 <tr>
+                    <td>
+                        <img alt="Harry Potter ve Zümrüdüanka Yoldaşlığı" width="250px" src="images\hp5.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Harry Potter ve Zümrüdüanka Yoldaşlığı <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 18dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Fantastik <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b> Privet Drive’da geçen yalnız bir yazın ardından Harry, Hogwarts’a döner. Öğrencilerden ve onların ailelerinden çok azı, Voldemort’un gerçekten de geri döndüğü konusunda Harry’e ya da Dumbledore’a inanmaktadırlar. <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2007 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.5/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Daniel Radcliffe, Rupert Grint, Emma Watson <br>
+                                </li>
+                            </ul>      
+                        </p>
+                        
+                    </td>
+    
+    
+                    <td>
+                        <img alt="Harry Potter ve Melez Prens" width="250px" src="images\hp6.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Harry Potter ve Melez Prens <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 33dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Fantastik <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Voldemort'un geri dönüşünü Sihir Bakanlığı'nın da kabul etmesiyle artık insanlar Harry'i "Seçilmiş Kişi" diye çağırmaya başlarlar. <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2009 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.6/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Daniel Radcliffe, Rupert Grint, Emma Watson <br>
+                                </li>
+                            </ul>      
+                        </p>
+        
+                    </td>
+    
+                    
+                    <td>
+                        <img alt="Harry Potter ve Ölüm Yadigârları: Bölüm 1" width="250px" src="images\hp7.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Harry Potter ve Ölüm Yadigârları: Bölüm 1 <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 26dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Fantastik <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Harry, Ron ve Hermione; Voldemort'un ölümsüzlük sırrını barındıran Hortkuluklar'ın izini sürmek amacındadırlar <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2010 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.7/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Daniel Radcliffe, Rupert Grint, Emma Watson <br>
+                                </li>
+                            </ul>      
+                        </p>                  
+                    </td>
+    
+        
+                    <td>
+                        <img alt="Harry Potter ve Ölüm Yadigârları: Bölüm 2" width="250px" src="images\hp8.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Harry Potter ve Ölüm Yadigârları: Bölüm 2 <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 10dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Fantastik <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Lord Voldemort'un ruhunun parçalarının bir kısmını bulup yok eden Harry, Ron ve Hermione, Dumbledore'un verdiği görevi tamamlamak için arayışlarını sürdürürlerken Ölüm Yiyenler'le bir ölüm kalım savaşına çıkacaklardır.<br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2011 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 8.1/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Daniel Radcliffe, Rupert Grint, Emma Watson <br>
+                                </li>
+                            </ul>      
+                        </p>
+                    </td>                  
+                </tr>
+            </div>
+    
+    
+            <div> 
+    
+                <tr>
+                    <td>
+                        <img alt="Güzel Ve Çirkin" width="250px" src="images\guzelVeCirkin.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b>Güzel Ve Çirkin <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 19dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b>Fantastik, Romantik, Müzikal <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Korkularına rağmen Belle, kalenin çalışanlarıyla arkadaş olur, canavarın korkunç dış görünüşünün arkasındaki hassas kalbi ve gerçek Prensi keşfeder. <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2017 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.1/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Dan Stevens, Emma Watson <br>
+                                </li>
+                            </ul>      
+                        </p> 
+                    </td>
+        
+    
+                    <td>
+                        <img alt="Örümcek Adam: Eve Dönüş" width="250px" src="images\spiderMan1.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Örümcek Adam: Eve Dönüş <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 13dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Aksiyon, Macera, Süper Kahraman <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Dünyayı kurtarma ile öğrencilik arasında gidip gelen Peter Parker'ın Vulture'ı alt etme çabasını anlatıyor. <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2017 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.4/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> om Holland,Zendaya<br>
+                                </li>
+                            </ul>      
+                        </p>
+                    </td>
+        
+    
+                    <td>
+                        <img alt="Örümcek Adam: Evden Uzakta" width="250px" src="images\spiderMan2.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Örümcek Adam: Evden Uzakta <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 1s 45dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Aksiyon, Macera, Süper Kahraman <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Parker'ın Avrupa'ya düzenlenen bir okul gezisindeyken Elementler ile yüzleşmek üzere Nick Fury ve Mysterio tarafından işe alınmasını konu edinmektedir. <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2019 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 7.4/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b> Tom Holland, Zendaya <br>
+                                </li>
+                            </ul>      
+                        </p>   
+                    </td>
+        
+    
+                    <td>
+                        <img alt="Örümcek Adam: Eve Dönüş Yok" width="250px" src="images\spiderMan3.jpg" />
+                        <p> 
+                            <ul>
+                                <li>
+                                    <b>İsim: </b> Örümcek Adam: Eve Dönüş Yok <br>
+                                </li>
+                                <li>
+                                    <b>Süre: </b> 2s 28dk <br>
+                                </li>
+                                <li>
+                                    <b>Tür: </b> Aksiyon, Macera, Süper Kahraman <br>
+                                </li>
+                                <li>
+                                    <b>Konusu: </b>Örümcek-Adam'ın gerçek kimliğinin Peter Parker olarak ortaya çıkmasından sonra gelişen olaylar konu ediniliyor. <br>
+                                </li>
+                                <li>
+                                    <b>Çıkış Yılı: </b> 2021 <br>
+                                </li>
+                                <li>
+                                    <b>IMDB: </b> 8.3/10 <br>
+                                </li>
+                                <li>
+                                    <b>Oyuncular: </b>Tom Holland, Zendaya, Benedict Cumberbatch<br>
+                                </li>
+                            </ul>      
+                        </p>
+                        
+                    </td>     
+        
+                </tr>
+            </div>
+        </table> 
+    </div>
+
+
+    <p><br><br><br></p>
+
+    <table class="table2">
+        <th>
+            <h4><a href="hakkimizda.html">HAKKIMIZDA</a></h4>
+        </th>
+        <th>
+            <h4><a href="index.html">FİLM ÇEREZİ </a></h4>
+        </th>
+        <th>
+            <h4>SOSYAL MEDYA</h4>
+        </th>
+        <tr>
+            <td>
+                <h5><a href="https://www.linkedin.com/in/g%C3%B6zdenur-ey%C3%BCpo%C4%9Flu-415829229/" target="_blank"> Gözdenur Eyüpoğlu </a></h5>
+
+            </td>
+            <td>
+                <h5><a href="gizlilikPolitikasi.html" >Gizlilik Politikası</h5>
+            </td>
+            <td rowspan="2">
+                <a href="https://www.instagram.com/filmcerezi2/" target="_blank"> <img alt="instagram hesabımız" height="32px" width="32px" src="images/instagram.png" /> </a>
+                <a href ="https://www.facebook.com/profile.php?id=100080883669310" target="_blank"> <img alt="facebook hesabımız" height="32px" width="32px" src="images/facebook.png" /> </a>
+                <a href ="https://twitter.com/FCerezi" target="_blank"> <img alt="twitter hesabımız"  height="32px" width="32px" src="images/twitter.png" /> </a>
+                 </td>
+        </tr>
+        <tr>
+            <td>
+                <h5><a href="https://www.linkedin.com/in/emin-tutam-556094207/" target="_blank"> Muhammed Emin Tutam</a></h5>
+            </td> 
+            
+            <td>
+                <h5><a href="cerezPolitikasi.html" >Çerez Politikası </a> </h5>
+
+
+            </td>
+        <tr>
+            <td>
+                <h5> <a href="https://www.linkedin.com/in/nurten-giyik-b838751ba" target="_blank" >Nurten Yıldız </a> </h5>
+            </td>
+
+            <td>
+                <h5><a href="siteHaritasi.html">Site Haritası</a> </h5>
+            </td>
+        </tr>
+            
+        </tr>
+    </table>
+
+    <script src="main.js">
+    </script>
+
+</body>
+</html>

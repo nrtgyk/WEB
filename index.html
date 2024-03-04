@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">    
+    <title>Film Çerezi</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        .table1{
+            width: 100%;
+        }
+        .table2{
+            text-align: center; 
+            width: 100%;
+        }
+
+        #td3{
+            text-align: left;
+        }
+
+        #td4{
+            width: 100%;
+            text-align: center;  
+        }
+
+        #td5{
+            text-align: right;
+        }
+        
+        a{
+            color:black;
+            text-decoration: none;
+            font-size: 110%;
+        }
+
+        input{          
+            padding:10px 16%;
+            text-align: left;
+  
+        }
+        .sub_menu{
+            display: none;
+            list-style-type: none;
+            position: absolute;
+            border: 3px solid black;
+            margin-top: 30px;
+            margin-left: -90px;
+            text-align: left;
+            box-shadow: 1px 1px 1px grey;
+
+        }
+        .sub_menu::before{
+            content: "";
+            width: -90px;
+            height: 0px;
+            border-left: 0px solid transparent;
+            border-right: 0px solid black;
+            border-bottom: 30px solid black;
+            position: absolute;
+            margin: 0px 0px 0px 60px;
+
+        }
+        .sub_menu>td{
+            padding: 0px;
+            color: black;
+            
+            font-size: 80px;
+
+        }
+        
+        .table1 td:hover .sub_menu{
+            display: block ;
+
+        }
+        .image-slider{
+            width: 30%;
+            height:70% ;
+            margin: 50px auto;
+            border:10px solid rgb(176, 205, 206) ;
+            position: relative;
+            box-shadow: 0px 0px 10px 2px grey;
+        }
+        .image-slider .img{
+            width: 100%;
+            height: 200%;
+        }
+        .image-slider2{
+            width: 30%;
+            height:70% ;
+            margin: 50px auto;
+            border:10px solid rgb(176, 205, 206) ;
+            position: relative;
+            box-shadow: 0px 0px 10px 2px grey;
+        }
+        .image-slider2 .img2{
+            width: 100%;
+            height: 200%;
+        }
+        .image-slider3{
+            width: 30%;
+            height:70% ;
+            margin: 50px auto;
+            border:10px solid rgb(176, 205, 206) ;
+            position: relative;
+            box-shadow: 0px 0px 10px 2px grey;
+        }
+        .image-slider3 .img3{
+            width: 100%;
+            height: 200%;
+        }
+        .btn-left,.btn-right{
+            position:absolute;
+            top: 45%;
+            padding: 10px;
+            cursor:pointer;
+            transition: .5s;
+        }
+        .btn-left{
+            left: 0px;
+        }
+        .btn-right{
+            right: 0px;
+        }
+        .btn-left:hover, .btn-right:hover{
+            background: rgb(176, 205, 206);
+        }
+        .btn-left2,.btn-right2{
+            position:absolute;
+            top: 45%;
+            padding: 10px;
+            cursor:pointer;
+            transition: .5s;
+        }
+        .btn-left2{
+            left: 0px;
+        }
+        .btn-right2{
+            right: 0px;
+        }
+        .btn-left2:hover, .btn-right2:hover{
+            background: rgb(176, 205, 206);
+        }
+        .btn-left3,.btn-right3{
+            position:absolute;
+            top: 45%;
+            padding: 10px;
+            cursor:pointer;
+            transition: .5s;
+        }
+        .btn-left3{
+            left: 0px;
+        }
+        .btn-right3{
+            right: 0px;
+        }
+        .btn-left3:hover, .btn-right3:hover{
+            background: rgb(176, 205, 206);
+        }
+      
+      
+    </style>
+    
+
+
+</head>
+
+<body>
+    <table class="table1">
+        <tr>
+            <td id="td1">
+                <a href="index.html">
+                    <img alt="film çerezi ikon" height="64px" width="64px" src="images/64px_filmcerezi_icon.png" />
+                </a>
+            </td>
+            <td id="td2">
+                <a href="index.html">
+                    <h1>Film Çerezi</h1>
+                </a>
+            </td>
+            <td id="td3">
+             
+                <img alt="menü ikonu" height="32px" width="32px" src="images/menu-button.png" />
+                <ul class="sub_menu">
+                    <li><a href="diziler.html"> DİZİLER</a></li>
+                    <li><a href="filmler.html">FİLMLER </a></li>
+                    <li><a href="oyuncular.html">OYUNCULAR </a></li>
+                    <li><a href="resimler.html">RESİMLER </a></li>
+                </ul>
+
+            </td>
+
+
+            <td id="td4">
+                <input id="myInput" placeholder="Ne arıyorsunuz?">
+                <button id="myBtn" onclick="javascript:alert('Aradığınız Bulunamadı!')">Ara</button>
+            </td>
+
+
+            <td id="td5"> <a href="girisSayfasi.html"> <img alt="üyelik girişi" height="64px" width="64px" src="images/user.png" /></a>
+                <ul class="sub_menu">
+                    <li><a href="hesapBilgileri.html"> Hesap Bilgileri</a></li>
+                    <li><a href="girisSayfasi.html">Giriş Yap </a></li>
+                    <li><a href="kayitSayfasi.html"> Kayıt Ol</a></li>
+                    <li><a href="sifreDegistirme.html">Şifre Değiştirme </a></li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <h2><a href="diziler.html"> DİZİLER</a> </h2> <br>
+    <p>
+        <div class="image-slider">
+            <div class="image-container" id="img-con">
+              <img src="images/you.jpg" class="img">
+            </div>
+    
+           <div class="btn-left" id="prev"><img src="images/left-arrow.png"></div>
+           <div class="btn-right" id="next"><img src="images/right-arrow.png"></div>
+        </div>
+        
+    </p>
+    <h2><a href="filmler.html">FİLMLER </a></h2> <br>
+    <p>
+
+        <div class="image-slider2">
+            <div class="image-container2" id="img-con2">
+              <img src="images/hp1.jpg" class="img2">
+            </div>
+    
+           <div class="btn-left2" id="prev2"><img src="images/left-arrow.png"></div>
+           <div class="btn-right2" id="next2"><img src="images/right-arrow.png"></div>
+        </div>
+    </p>
+    <h2><a href="oyuncular.html">OYUNCULAR </a></h2> <br>
+
+    <p>
+
+        <div class="image-slider3">
+            <div class="image-container3" id="img-con3">
+              <img src="images/emmaWatson.jpg" class="img3">
+            </div>
+    
+           <div class="btn-left3" id="prev3"><img src="images/left-arrow.png"></div>
+           <div class="btn-right3" id="next3"><img src="images/right-arrow.png"></div>
+        </div>
+    </p>
+
+
+    <p><br><br><br><br><br></p>
+
+    <table class="table2">
+        <th>
+            <h4><a href="hakkimizda.html">HAKKIMIZDA</a></h4>
+        </th>
+        <th>
+            <h4><a href="index.html">FİLM ÇEREZİ </a></h4>
+        </th>
+        <th>
+            <h4>SOSYAL MEDYA</h4>
+        </th>
+        <tr>
+            <td>
+                <h5><a href="https://www.linkedin.com/in/g%C3%B6zdenur-ey%C3%BCpo%C4%9Flu-415829229/" target="_blank"> Gözdenur Eyüpoğlu </a></h5>
+
+            </td>
+            <td>
+                <h5><a href="gizlilikPolitikasi.html" >Gizlilik Politikası</h5>
+            </td>
+            <td rowspan="2">
+                <a href="https://www.instagram.com/filmcerezi2/" target="_blank"> <img alt="instagram hesabımız" height="32px" width="32px" src="images/instagram.png" /> </a>
+                <a href ="https://www.facebook.com/profile.php?id=100080883669310" target="_blank"> <img alt="facebook hesabımız" height="32px" width="32px" src="images/facebook.png" /> </a>
+                <a href ="https://twitter.com/FCerezi" target="_blank"> <img alt="twitter hesabımız"  height="32px" width="32px" src="images/twitter.png" /> </a>
+                 </td>
+        </tr>
+        <tr>
+            <td>
+                <h5><a href="https://www.linkedin.com/in/emin-tutam-556094207/" target="_blank"> Muhammed Emin Tutam</a></h5>
+            </td> 
+            
+            <td>
+                <h5><a href="cerezPolitikasi.html" >Çerez Politikası </a> </h5>
+
+
+            </td>
+        <tr>
+            <td>
+                <h5> <a href="https://www.linkedin.com/in/nurten-giyik-b838751ba" target="_blank" >Nurten Yıldız </a> </h5>
+            </td>
+
+            <td>
+                <h5><a href="siteHaritasi.html">Site Haritası</a> </h5>
+            </td>
+        </tr>
+            
+        </tr>
+    </table>
+    <script src="main.js">
+    </script>
+    
+</body>
+</html>

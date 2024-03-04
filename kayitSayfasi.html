@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Kayıt Sayfası</title>
+
+    <style>
+
+        *{
+            align-items: center;
+        }
+        
+        form{
+            width: 600px;
+            margin: 0px auto;
+        }
+        div{
+            width: 100%;
+            margin: 15px auto;
+        }
+        label{
+            display: block;
+            padding: 10px;
+            margin: 0px 140px;
+            font-size: 20px;
+        }
+        input{
+            
+            padding: 10px;
+            margin-left: 150px;
+
+            border: 1px solid #797979;
+            
+            font-size: 20px;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        #sign-up{
+           margin:10px 210px;
+           
+           width: 150px;
+           border: none;
+           outline: none;
+           cursor: pointer;
+           border-radius: 5px;
+           background-color: black;
+           font-size: 20px;
+           color: whitesmoke;
+        }
+
+
+        .table1{text-align: left;}
+
+        a{
+            color:black;
+            text-decoration: none;
+        }
+
+        #td4{
+            width: 100%;
+            text-align: center;  
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <table class="table1">
+        <tr>
+            <td id="td1">
+                <a href="index.html">
+                    <img alt="film çerezi ikon" height="64px" width="64px" src="images/64px_filmcerezi_icon.png" />
+                </a>
+            </td>
+            <td id="td2">
+                <a href="index.html">
+                    <h1>Film Çerezi</h1>
+                </a>
+            </td>
+            <td id="td3">
+             
+                <img alt="menü ikonu" height="32px" width="32px" src="images/menu-button.png" />
+                <ul class="sub_menu">
+                    <li><a href="diziler.html"> DİZİLER</a></li>
+                    <li><a href="filmler.html">FİLMLER </a></li>
+                    <li><a href="oyuncular.html">OYUNCULAR </a></li>
+                </ul>
+
+            </td>
+
+            <div>
+
+                <td id="td4">
+                    <input id="myInput" placeholder="Ne arıyorsunuz?">
+                    <button id="myBtn" onclick="javascript:alert('Aradığınız Bulunamadı!')">Ara</button>
+                </td>
+
+            
+            </div>
+
+            <td id="td5"> <a href="girisSayfasi.html"> <img alt="üyelik girişi" height="64px" width="64px" src="images/user.png" /></a>
+                <ul class="sub_menu">
+                    <li><a href="hesapBilgileri.html"> Hesap Bilgileri</a></li>
+                    <li><a href="girisSayfasi.html">Giriş Yap </a></li>
+                    <li><a href="kayitSayfasi.html"> Kayıt Ol</a></li>
+                    <li><a href="sifreDegistirme.html">Şifre Değiştirme </a></li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    
+
+       
+        <p> <br><br> </p>
+
+        <form action="kayitSayfasi.html" method="POST">
+
+            <div>
+
+                <label for="email">E-posta adresinizi girin:</label>
+
+                <input type="email" name="email" placeholder="E-posta Adresini Giriniz" required>
+
+                <span></span>
+
+            </div>
+
+            <div>
+
+                <label for="username">Kullanıcı Adı Belirleyin:</label>
+
+                <input type="text" name="username" placeholder="Kullanıcı Adını Giriniz" required>
+
+                <span></span>
+
+            </div>
+
+            <div>
+
+                <label for="password">Şifre Belirleyin:</label>
+
+                <input type="password" name="password" placeholder="Şifreyi Giriniz" required>
+
+                <span></span>
+            </div>
+
+            <div>
+
+                <label for="password">Şifreyi Tekrar Girin:</label>
+
+                <input type="password" name="password" placeholder="Şifreyi Tekrar Giriniz" required>
+
+                <span></span>
+            </div>
+            
+
+            <input type="submit" id="sign-up" value="Kayıt Ol">
+
+            <a style="margin:10px 190px" href="girisSayfasi.html"> Üye misiniz? Oturum Açın! </a> 
+            <p><br></p>
+
+            <input type="checkbox" name="Üyelik Koşullarını Kabul Ediyorum" required>Üyelik Koşullarını Kabul Ediyorum <br>
+   
+        </form>
+    
+
+    <p> <br><br><br><br> </p>,
+
+    <table class="table2">
+        <th>
+            <h4><a href="hakkimizda.html">HAKKIMIZDA</a></h4>
+        </th>
+        <th>
+            <h4><a href="index.html">FİLM ÇEREZİ </a></h4>
+        </th>
+        <th>
+            <h4>SOSYAL MEDYA</h4>
+        </th>
+        <tr>
+            <td>
+                <h5><a href="https://www.linkedin.com/in/g%C3%B6zdenur-ey%C3%BCpo%C4%9Flu-415829229/" target="_blank"> Gözdenur Eyüpoğlu </a></h5>
+
+            </td>
+            <td>
+                <h5><a href="gizlilikPolitikasi.html" >Gizlilik Politikası</h5>
+            </td>
+            <td rowspan="2">
+                <a href="https://www.instagram.com/filmcerezi2/" target="_blank"> <img alt="instagram hesabımız" height="32px" width="32px" src="images/instagram.png" /> </a>
+                <a href ="https://www.facebook.com/profile.php?id=100080883669310" target="_blank"> <img alt="facebook hesabımız" height="32px" width="32px" src="images/facebook.png" /> </a>
+                <a href ="https://twitter.com/FCerezi" target="_blank"> <img alt="twitter hesabımız"  height="32px" width="32px" src="images/twitter.png" /> </a>
+                 </td>
+        </tr>
+        <tr>
+            <td>
+                <h5><a href="https://www.linkedin.com/in/emin-tutam-556094207/" target="_blank"> Muhammed Emin Tutam</a></h5>
+            </td> 
+            
+            <td>
+                <h5><a href="cerezPolitikasi.html" >Çerez Politikası </a> </h5>
+
+
+            </td>
+        <tr>
+            <td>
+                <h5> <a href="https://www.linkedin.com/in/nurten-giyik-b838751ba" target="_blank" >Nurten Yıldız </a> </h5>
+            </td>
+
+            <td>
+                <h5><a href="siteHaritasi.html">Site Haritası</a> </h5>
+            </td>
+        </tr>
+            
+        </tr>
+    </table>
+   
+</body>
+
+<script src="main.js">
+</script>
+</html>
